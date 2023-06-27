@@ -1,1 +1,18 @@
 This repository contains a sentiment analysis project that performs sentiment analysis on Twitter data related to the Russia-Ukraine conflict. The project aims to analyze the sentiment expressed in tweets by applying the VADER sentiment analysis tool and performing text preprocessing techniques.
+Dataset
+The dataset used for this project is stored in a CSV file . It consists of tweets along with their associated usernames and language information. The dataset is loaded using the Pandas library, and relevant columns are selected for analysis.
+Usage
+
+    The script loads the dataset and performs the following steps:
+        Selects relevant columns (username, tweet, language).
+        Removes missing values from the dataset.
+        Performs text preprocessing, including removing URLs, HTML tags, punctuation marks, line breaks, alphanumeric words, and stopwords. It also applies stemming to the words.
+        Generates a word cloud visualization based on the cleaned tweets.
+        Calculates sentiment scores (positive, negative, neutral) for each tweet using the VADER sentiment analysis tool.
+        Selects the relevant columns for the final dataset.
+
+    The updated dataset is saved to a new CSV file.
+
+    To visualize the word cloud, sentiment analysis results, and access the updated dataset, refer to the generated CSV file.
+
+Feel free to customize the repository name, description, and README to better suit your project. Include any necessary instructions, dependencies, or additional details that are relevant to your project.
