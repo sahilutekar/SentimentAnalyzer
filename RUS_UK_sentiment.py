@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 import string
 
 # Loading the dataset
-data = pd.read_csv("C:/Users/sahil/Desktop/NLP_sentiment/Russia_ukrain_sentiment_analysis/filename.csv")
+data = pd.read_csv("")
 print(data.head())
 
 # Printing the column names
@@ -88,7 +88,7 @@ data = data[["tweet", "Positive", "Negative", "Neutral"]]
 print(data.head())
 
 # Specify the path and filename for the new CSV file
-output_file = "C:/Users/sahil/Desktop/NLP_sentiment/updated_data.csv"
+output_file = ""
 
 # Save the updated dataset to the new CSV file
 data.to_csv(output_file, index=False)
