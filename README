@@ -1,0 +1,1 @@
+This repository contains a sentiment analysis project that performs sentiment analysis on Twitter data related to the Russia-Ukraine conflict. The project aims to analyze the sentiment expressed in tweets by applying the VADER sentiment analysis tool and performing text preprocessing techniques.
